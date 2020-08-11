@@ -104,22 +104,22 @@ public class senti_swing extends JFrame {
 
         JLabel lblName = new JLabel("REGISTER NUMBER");
         lblName.setFont(new Font("Dialog", Font.ITALIC, 15));
-        lblName.setBounds(80, 101, 208, 30);
+        lblName.setBounds(80, 66, 208, 30);
         contentPane.add(lblName);
 
         JLabel lblNewLabel = new JLabel("LAST NAME");
         lblNewLabel.setFont(new Font("Dialog", Font.ITALIC, 15));
-        lblNewLabel.setBounds(80, 188, 156, 25);
+        lblNewLabel.setBounds(80, 153, 156, 25);
         contentPane.add(lblNewLabel);
 
         JLabel lblEmailAddress = new JLabel("Email\rID");
         lblEmailAddress.setFont(new Font("Dialog", Font.ITALIC, 15));
-        lblEmailAddress.setBounds(80, 429, 65, 30);
+        lblEmailAddress.setBounds(80, 394, 65, 30);
         contentPane.add(lblEmailAddress);
         
                 JLabel lblUsername = new JLabel("FIRST NAME");
                 lblUsername.setFont(new Font("Dialog", Font.ITALIC, 15));
-                lblUsername.setBounds(80, 270, 124, 29);
+                lblUsername.setBounds(80, 233, 124, 29);
                 contentPane.add(lblUsername);
 
         regnum = new JTextField();
